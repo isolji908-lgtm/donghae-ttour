@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#58c7e8">
+<meta name="description" content="동해종합버스터미널 이용객을 위한 관광안내. 주요 관광지 사진을 누르면 주소, 운영시간, 요금과 관람 정보를 확인할 수 있습니다.">
+<title>동해 여행, 여기서 시작! | 동해종합버스터미널 관광안내</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Gowun+Dodum&family=Jua&family=Noto+Sans+KR:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--teal:#159fc7;--deep:#167ca5;--mint:#e8faff;--ink:#20465a;--muted:#5c7c8b;--line:#cdebf5;--gold:#ffe49a;--white:#fff;--hero-image:url("https://img.khan.co.kr/news/2022/05/18/l_2022051901002229200211061.jpg");--shadow:0 16px 44px rgba(34,139,178,.14)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}body{margin:0;font-family:"Gowun Dodum","Noto Sans KR",sans-serif;color:var(--ink);background:#f7fdff;line-height:1.7}a{color:inherit}button{font:inherit;cursor:pointer}.wrap{width:min(1120px,calc(100% - 36px));margin:auto}
+header{position:sticky;top:0;z-index:30;background:rgba(31,151,190,.96);color:#fff;backdrop-filter:blur(12px);box-shadow:0 4px 20px #073b3920}.nav{height:68px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:900;font-size:1.15rem;letter-spacing:-.04em}.brand-mark{display:grid;place-items:center;width:36px;height:36px;border-radius:14px;background:#ffffff28;color:var(--gold);font-size:1.25rem}.brand,.footer-title{font-family:"Jua","Gowun Dodum",sans-serif}.navlinks{display:flex;gap:22px;align-items:center}.navlinks a{font-size:.9rem;text-decoration:none;color:#e1f2ef}.navlinks a:hover{color:var(--gold)}.menu{display:none;background:transparent;border:1px solid #ffffff50;color:white;border-radius:10px;padding:7px 11px}
+.hero{position:relative;min-height:510px;display:flex;align-items:center;color:white;overflow:hidden;background:#58c7e8}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,91,132,.55) 0%,rgba(27,139,177,.30) 48%,rgba(3,91,135,.04) 100%),var(--hero-image) center/cover}
+.hero:after{content:"";position:absolute;inset:auto 0 0;height:100px;background:linear-gradient(transparent,#073b3920);pointer-events:none}.hero-content{position:relative;z-index:1;padding:76px 0 88px;max-width:720px}.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:7px 13px;border:1px solid #ffffff70;border-radius:99px;background:#ffffff17;font-size:.83rem;font-weight:700;letter-spacing:.02em}.hero h1{font-family:"Jua","Gowun Dodum",sans-serif;font-size:clamp(2.5rem,6vw,4.7rem);line-height:1.16;letter-spacing:-.065em;margin:22px 0 16px;font-weight:900}.hero h1 em{font-style:normal;color:var(--gold)}.hero p{font-size:clamp(1rem,2vw,1.18rem);color:#eff9f7;margin:0 0 28px}.actions{display:flex;flex-wrap:wrap;gap:12px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;border-radius:13px;text-decoration:none;font-weight:800;border:1px solid transparent;transition:.2s}.btn.primary{background:var(--gold);color:#24566b;box-shadow:0 6px 18px #0b6e8a30}.btn.ghost{border-color:#ffffffa8;color:white;background:#ffffff12}.btn:hover{transform:translateY(-2px)}
+.quick{position:relative;margin-top:-34px;z-index:3}.quick-grid{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow);overflow:hidden}.quick a{padding:20px 12px;text-align:center;text-decoration:none;border-right:1px solid var(--line)}.quick a:last-child{border:0}.quick .emoji{display:block;font-size:1.7rem;margin-bottom:5px}.quick strong{display:block;font-size:.98rem}.quick small{color:var(--muted);font-size:.78rem}
+section{padding:76px 0}.section-head{margin-bottom:28px}.kicker{font-size:.78rem;color:#14766e;font-weight:900;letter-spacing:.13em;text-transform:uppercase}.section-head h2{font-family:"Jua","Gowun Dodum",sans-serif;font-size:clamp(1.7rem,3vw,2.45rem);line-height:1.25;letter-spacing:-.05em;margin:7px 0 10px}.section-head p{margin:0;color:var(--muted)}.spots{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.spot{border:1px solid var(--line);border-radius:24px;overflow:hidden;background:#fff;box-shadow:0 6px 20px #073b3908;transition:.25s;display:flex;flex-direction:column}.spot:hover{transform:translateY(-5px);box-shadow:var(--shadow)}.spot-image{height:220px;position:relative;overflow:hidden;background:#dff6ff}.spot-image img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}.spot:hover img{transform:scale(1.05)}.spot-image:after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,#061f1c65)}.tag{position:absolute;z-index:1;left:14px;top:14px;background:#fffedff2;color:var(--teal);padding:5px 10px;border-radius:99px;font-size:.75rem;font-weight:900}.spot-body{padding:20px;display:flex;flex-direction:column;flex:1}.spot h3{font-family:"Jua","Gowun Dodum",sans-serif;font-size:1.22rem;letter-spacing:-.035em;margin:0 0 8px}.spot p{font-size:.91rem;color:var(--muted);margin:0 0 16px}.spot-meta{font-size:.82rem;color:#375653;background:#f0fbff;padding:10px 12px;border-radius:11px;margin-top:auto}.spot-meta b{color:var(--teal)}.spot button{margin-top:13px;border:0;background:transparent;color:var(--teal);font-weight:900;text-align:left;padding:5px 0}
+.info-section{background:linear-gradient(180deg,#e8f9ff 0%,#f5fcff 100%)}.info-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.info-card{background:#fff;border:1px solid #cdebf5;border-radius:22px;padding:23px 20px}.info-card .icon{font-size:1.8rem}.info-card h3{font-family:"Jua","Gowun Dodum",sans-serif;margin:9px 0 6px;font-size:1.05rem}.info-card p{margin:0 0 14px;color:var(--muted);font-size:.88rem}.info-card a{font-size:.86rem;font-weight:900;color:var(--teal);text-decoration:none}.routes{display:grid;grid-template-columns:1fr 1fr;gap:18px}.route{padding:23px;border:1px solid var(--line);border-radius:18px}.route h3{margin:0 0 12px}.route ol{padding-left:21px;margin:0;color:var(--muted)}.route li{padding:4px 0}.notice{margin-top:22px;padding:15px 17px;border-radius:14px;background:#fff6dd;color:#6b551a;font-size:.85rem}
+footer{background:var(--deep);color:#e4f3f0;padding:38px 0 30px}.footer-top{display:flex;justify-content:space-between;gap:24px;align-items:flex-start}.footer-title{font-weight:900;font-size:1.1rem}.footer-small{font-size:.82rem;color:#b8d4d0;margin-top:8px}.footer-links-group{display:flex;flex-direction:column;gap:10px}.footer-links-title{font-size:.85rem;font-weight:800;color:var(--gold)}.footer-links{display:flex;flex-wrap:wrap;gap:12px}.footer-links a{font-size:.83rem;color:#e4f3f0;text-decoration:underline;text-underline-offset:3px}.footer-links a:hover{color:var(--gold)}.copyright{border-top:1px solid #ffffff20;margin-top:25px;padding-top:17px;color:#a8c8c3;font-size:.75rem}
+.modal{position:fixed;inset:0;background:#061f1dd9;z-index:60;display:none;align-items:center;justify-content:center;padding:18px}.modal.open{display:flex}.modal-box{background:white;border-radius:26px;overflow:hidden;max-width:650px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 25px 80px #0005}.modal-img{width:100%;height:245px;object-fit:cover;display:block}.modal-content{padding:24px}.modal-content h2{font-family:"Jua","Gowun Dodum",sans-serif;margin:0 42px 6px 0;letter-spacing:-.04em}.modal-content .subtitle{color:#14766e;font-weight:800;margin:0 0 14px}.modal-content p{color:var(--muted)}.modal-details{display:grid;gap:9px}.detail{padding:12px;background:#f3f8f6;border-radius:12px;font-size:.9rem}.detail b{display:block;color:var(--teal);font-size:.78rem;margin-bottom:3px}.close{position:absolute;top:12px;right:12px;width:38px;height:38px;border:0;border-radius:50%;background:#073b39;color:#fff;font-size:1.3rem}.modal-inner{position:relative;max-width:650px;width:100%}
+
+.spot-image-button{display:block;width:100%;padding:0;border:0;text-align:left;cursor:pointer;font:inherit;background:#dff6ff}.spot-image-button:focus-visible,.spot-title-button:focus-visible,.info-card:focus-visible{outline:3px solid var(--gold);outline-offset:3px}.spot-title-button{border:0;background:transparent;padding:0;color:inherit;font:inherit;text-align:left;cursor:pointer}.spot-title-button:hover{color:var(--teal)}.info-card{cursor:pointer;transition:transform .2s,box-shadow .2s}.info-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}.info-card strong{font-size:.86rem;color:var(--teal)}
+@media(max-width:850px){.navlinks{display:none;position:absolute;top:68px;left:0;right:0;background:var(--deep);padding:16px 22px 22px;flex-direction:column;align-items:flex-start;gap:14px}.navlinks.open{display:flex}.menu{display:block}.spots{grid-template-columns:repeat(2,1fr)}.info-grid{grid-template-columns:repeat(2,1fr)}.hero{min-height:460px}}
+@media(max-width:560px){.wrap{width:min(100% - 28px,1120px)}.hero{min-height:470px}.hero-content{padding:60px 0 78px}.hero:before{background:linear-gradient(90deg,rgba(12,91,132,.55),rgba(27,139,177,.30)),var(--hero-image) center/cover}.quick-grid{grid-template-columns:repeat(2,1fr)}.quick a:nth-child(2){border-right:0}.quick a:nth-child(-n+2){border-bottom:1px solid var(--line)}section{padding:56px 0}.spots{grid-template-columns:1fr}.spot-image{height:225px}.info-grid,.routes{grid-template-columns:1fr}.footer-top{display:block}.footer-links{margin-top:18px}.modal-img{height:190px}}
+</style>
+
+<style id="referenceDesign">
+:root{--teal:#087d78;--deep:#075b57;--mint:#e5f6f3;--ink:#104e4b;--muted:#5f748a;--line:#d9ece9;--gold:#ffe49a;--white:#fff;--shadow:0 10px 24px rgba(9,75,71,.09)}
+body{background:#f8fcfb;color:#174d4a;font-family:"Gowun Dodum",sans-serif}
+.wrap{width:min(100% - 48px,1120px)}
+header{background:#075b57;color:#fff;box-shadow:none}
+.brand{font-size:1.3rem;color:white}.brand-mark{background:transparent;color:white;border-radius:0;font-size:1.8rem}.nav{height:82px}.navlinks a{color:#e2f6f2}.menu{border:0;font-size:1.7rem;padding:5px 10px}.theme-toggle{background:transparent;color:#fff;border:1px solid #ffffff55;border-radius:10px;padding:8px 12px}
+.hero{min-height:405px;color:#075b57;background:#d8f0f8}.hero:before{background:linear-gradient(90deg,rgba(240,250,252,.96) 0%,rgba(236,249,251,.84) 35%,rgba(224,246,250,.12) 68%),url("https://img.khan.co.kr/news/2022/05/18/l_2022051901002229200211061.jpg") center/cover}.hero:after{display:none}.hero-content{padding:45px 0 50px;max-width:100%}.eyebrow{display:none}.hero h1{color:#075b57;font-family:"Gamja Flower","Jua",sans-serif;font-size:clamp(3.2rem,7vw,5.4rem);line-height:1.05;margin:0 0 20px;letter-spacing:-.04em}.hero h1 em{color:#075b57}.hero p{color:#245e68;font-size:1.22rem;line-height:1.7}.btn{border-radius:999px}.btn.primary{background:#087d78;color:white}.btn.ghost{color:#075b57;border-color:#087d78;background:#ffffff65}
+.quick{display:none}.quick-grid{display:none}
+section{padding:42px 0}.section-head{margin-bottom:22px}.kicker{display:none}.section-head h2{color:#075b57;font-size:clamp(1.8rem,3.4vw,2.45rem);margin:0 0 7px}.section-head p{font-size:1.05rem;color:#647990}
+.spots{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.spot{border:0;border-radius:18px;box-shadow:0 4px 12px rgba(7,91,87,.07)}.spot-image{height:230px}.spot-body{padding:15px 20px 17px}.spot h3{font-size:1.35rem;color:#114c49}.spot p{display:none}.spot-meta{display:none}.spot button[data-spot]{font-size:.9rem;color:#087d78}.spot-title-button{font-size:1.3rem!important}
+.info-section{background:linear-gradient(180deg,#e7f6f3,#f1fbf9);position:relative;margin-top:0;padding:54px 0 62px}.info-section:before{content:"";position:absolute;left:0;right:0;top:-1px;height:24px;background:#f8fcfb;clip-path:polygon(0 0,100% 0,100% 55%,88% 25%,72% 75%,55% 35%,38% 80%,18% 25%,0 70%)}.info-section .section-head{text-align:center;margin-bottom:26px}.info-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:15px}.info-card{border:0;border-radius:20px;padding:22px 14px 18px;text-align:center;box-shadow:0 5px 14px rgba(7,91,87,.06);min-height:190px}.info-card .icon{font-size:3.1rem;margin-bottom:5px}.info-card h3{color:#104e4b;font-size:1.15rem}.info-card p{font-size:.9rem;line-height:1.5}.info-card strong{color:#087d78}
+#courses .routes{gap:18px}.route{border:1px solid #d9ece9;border-radius:18px;background:white}.route h3{color:#075b57}.notice{background:#fff8e6;color:#725a21;border-radius:13px}
+footer{background:#075b57;color:#fff;padding:42px 0 28px;border-radius:12% 12% 0 0/7% 7% 0 0}footer:before{content:"〰 〰 〰";display:block;text-align:center;color:#ffffff45;font-size:2rem;margin:-22px 0 15px}.footer-title{font-size:1.3rem;color:white}.footer-small,.copyright{color:#c4e5e1}.footer-links a{color:#e2f6f2}
+.modal-inner{border-radius:22px}.modal-details{gap:10px}.detail{border-radius:13px}
+@media(max-width:850px){.wrap{width:min(100% - 34px,1120px)}.nav{height:72px}.navlinks{top:72px;background:#075b57}.hero{min-height:380px}.hero-content{padding:42px 0}.spots{grid-template-columns:repeat(2,minmax(0,1fr))}.info-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:560px){.wrap{width:calc(100% - 28px)}.nav{height:66px}.brand{font-size:1.08rem}.theme-toggle{font-size:.72rem;padding:7px}.hero{min-height:370px}.hero:before{background:linear-gradient(90deg,rgba(240,250,252,.94),rgba(236,249,251,.70) 56%,rgba(224,246,250,.12)),url("https://img.khan.co.kr/news/2022/05/18/l_2022051901002229200211061.jpg") center/cover}.hero-content{padding:38px 0}.hero h1{font-size:3.15rem}.hero p{font-size:1rem}.actions{gap:8px}.btn{padding:10px 13px;font-size:.85rem}.spots{grid-template-columns:1fr;gap:15px}.spot-image{height:220px}.spot p{display:block;margin-bottom:12px}.spot-meta{display:block}.info-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.info-card{min-height:165px;padding:17px 10px}.info-card .icon{font-size:2.5rem}.info-card h3{font-size:1.02rem}.info-card p{font-size:.82rem}section{padding:35px 0}.info-section{padding:48px 0}.routes{grid-template-columns:1fr}.footer-top{display:block}.footer-links{margin-top:18px}}
+
+.route-detailed{padding:22px;background:#fff}.route-detailed h3{font-size:1.18rem;margin-bottom:14px}.route-summary{display:grid;grid-template-columns:auto 1fr;gap:5px 12px;padding:12px 14px;background:#f0f8f6;border-radius:12px;font-size:.86rem;margin-bottom:14px}.route-summary span{color:#657c7a}.route-summary b{color:#075b57}.route-steps{list-style:none;padding:0!important;margin:0!important}.route-steps li{display:grid;grid-template-columns:112px 1fr;gap:12px;padding:13px 0;border-bottom:1px solid #e7f0ee}.route-steps li:last-child{border-bottom:0}.step-time{font-weight:900;color:#087d78;font-size:.83rem}.step-content b{color:#174d4a}.step-content p{margin:3px 0 5px;color:#315f5c;font-size:.9rem}.step-content small{display:block;color:#738681;font-size:.8rem;line-height:1.5}.route-note{padding:12px 14px;background:#fff8e6;border-radius:12px;color:#725a21;font-size:.86rem;margin-top:12px}.route-note b{display:block;margin-bottom:3px}@media(max-width:560px){.route-steps li{grid-template-columns:1fr;gap:2px}.step-time{font-size:.8rem}.route-summary{grid-template-columns:1fr;gap:1px}.route-summary b{margin-bottom:6px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#" aria-label="동해 관광안내 홈"><span class="brand-mark">🌊</span><span>동해 여행안내</span></a>
+    <nav class="navlinks" id="navlinks" aria-label="주요 메뉴">
+      <a href="#spots">대표 관광지</a><a href="#information">여행 정보</a><a href="#courses">추천 코스</a>
+    </nav>
+    <button class="menu" id="menuBtn" aria-expanded="false" aria-controls="navlinks">☰</button>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-content">
+    <span class="eyebrow">📍 동해종합버스터미널 관광안내</span>
+    <h1><span id="bannerMainTitle">동해 여행,</span><br><em id="bannerSubTitle">여기서 시작!</em></h1>
+    <p>푸른 바다와 깊은 계곡, 신비로운 동굴까지.<br>동해의 매력을 한눈에 확인하고 여행을 시작해 보세요.</p>
+    <div class="actions"><a class="btn primary" href="#spots">✨ 대표 관광지 둘러보기</a><a class="btn ghost" href="#information">여행 정보 확인 ↓</a></div>
+  </div>
+</section>
+<div class="wrap quick">
+  <div class="quick-grid">
+    <a href="#spots"><span class="emoji">🏞️</span><strong>관광 명소</strong><small>꼭 가볼 곳</small></a>
+    <a href="#information"><span class="emoji">🚌</span><strong>교통 안내</strong><small>이동 정보</small></a>
+    <a href="#information"><span class="emoji">🍲</span><strong>먹거리</strong><small>지역의 맛</small></a>
+    <a href="#courses"><span class="emoji">🗺️</span><strong>추천 코스</strong><small>여행 동선</small></a>
+  </div>
+</div>
+<section id="spots">
+ <div class="wrap">
+  <div class="section-head"><span class="kicker">Discover Donghae</span><h2>동해의 대표 관광지</h2><p>바다·산·동굴·체험 명소 중 취향에 맞는 곳을 골라보세요. 카드를 누르면 상세 안내가 열립니다.</p></div>
+  <div class="spots" id="spotGrid"></div>
+ </div>
+</section>
+<section class="info-section" id="information">
+ <div class="wrap">
+  <div class="section-head"><span class="kicker">Travel essentials</span><h2>여행에 필요한 정보</h2><p>터미널에 도착한 뒤 이동, 식사, 숙박 계획을 세워보세요.</p></div>
+  <div class="info-grid">
+   <article class="info-card" role="button" tabindex="0" data-info="tourism" aria-label="관광지 상세정보 보기"><div class="icon">🏞️</div><h3>관광지</h3><p>주요 명소와<br>여행 코스</p><strong>자세히 보기 →</strong></article>
+   <article class="info-card" role="button" tabindex="0" data-info="transport" aria-label="대중교통 상세정보 보기"><div class="icon">🚌</div><h3>대중교통</h3><p>터미널에서 관광지로 이동할 때 알아둘 정보</p><strong>자세히 보기 →</strong></article>
+   <article class="info-card" role="button" tabindex="0" data-info="food" aria-label="동해 먹거리 상세정보 보기"><div class="icon">🍜</div><h3>동해 먹거리</h3><p>동해에서 즐겨볼 만한 지역 먹거리 안내</p><strong>자세히 보기 →</strong></article>
+   <article class="info-card" role="button" tabindex="0" data-info="stay" aria-label="숙박·캠핑 상세정보 보기"><div class="icon">🛏️</div><h3>숙박·캠핑</h3><p>해변 숙박과 캠핑을 계획할 때 참고할 정보</p><strong>자세히 보기 →</strong></article>
+   <article class="info-card" role="button" tabindex="0" data-info="festival" aria-label="축제·행사 상세정보 보기"><div class="icon">🎉</div><h3>축제·행사</h3><p>방문 전에 확인하면 좋은 행사 정보</p><strong>자세히 보기 →</strong></article>
+  </div>
+ </div>
+</section>
+<section id="courses">
+ <div class="wrap">
+  <div class="section-head"><span class="kicker">Trip ideas</span><h2>이렇게 여행해 보세요</h2><p>이동 시간과 운영 상황에 따라 방문 순서를 조정해 주세요.</p></div>
+  <div class="routes">
+   <article class="route route-detailed">
+    <h3>🌿 자연·계곡 하루 코스</h3><div class="route-summary"><span>추천 소요시간</span><b>약 6~8시간</b><span>추천 대상</span><b>자연·산책·체험 선호 여행객</b></div>
+    <ol class="route-steps">
+     <li><div class="step-time">09:00–11:30</div><div class="step-content"><b>1. 무릉계곡·삼화사</b><p>무릉반석 → 삼화사 → 계곡 산책로</p><small>걷기 편한 신발 권장 · 폭포 코스는 체력과 기상에 맞춰 선택</small></div></li>
+     <li><div class="step-time">11:30–12:30</div><div class="step-content"><b>2. 점심 및 이동</b><p>무릉계곡 주변 식당 이용 또는 다음 목적지 이동 후 식사</p><small>식당 영업시간·대중교통 배차는 출발 전 확인</small></div></li>
+     <li><div class="step-time">12:30–15:30</div><div class="step-content"><b>3. 무릉별유천지</b><p>호수 전망 구간 → 정원·포토존 → 희망 체험시설</p><small>체험시설은 별도 요금·키/체중 기준·기상 제한 확인</small></div></li>
+     <li><div class="step-time">16:00–17:00</div><div class="step-content"><b>4. 천곡황금박쥐동굴</b><p>동굴 관람로 및 지질 전시 관람</p><small>매표 마감 전 도착 권장 · 내부 계단과 미끄러운 구간 유의</small></div></li>
+    </ol><div class="route-note"><b>이동 팁</b> 무릉권역 관광지 사이 이동은 택시·자가용이 편리합니다. 대중교통 이용 시 환승과 배차 대기시간을 추가로 잡으세요.</div>
+   </article>
+   <article class="route route-detailed">
+    <h3>🌊 묵호·바다 감성 코스</h3><div class="route-summary"><span>추천 소요시간</span><b>약 4~6시간</b><span>추천 대상</span><b>바다 전망·사진·도보 여행객</b></div>
+    <ol class="route-steps">
+     <li><div class="step-time">10:00–11:30</div><div class="step-content"><b>1. 도째비골 스카이밸리</b><p>전망시설 → 스카이워크 → 운영 중인 체험시설</p><small>월요일 휴무 여부·매표 마감·기상에 따른 시설 운영 확인</small></div></li>
+     <li><div class="step-time">11:30–12:00</div><div class="step-content"><b>2. 해랑전망대</b><p>바다 위 보행교 산책 및 해안 전망 촬영</p><small>강풍·파랑 등 기상 악화 시 출입 통제 가능</small></div></li>
+     <li><div class="step-time">12:00–13:00</div><div class="step-content"><b>3. 묵호항 주변 점심</b><p>항구 주변 식당에서 생선구이·회 등 해산물 메뉴 선택</p><small>혼잡 시간대에는 대기시간 고려</small></div></li>
+     <li><div class="step-time">13:00–14:30</div><div class="step-content"><b>4. 논골담길·묵호등대</b><p>벽화 골목 → 묵호등대 주변 전망 포인트</p><small>언덕과 계단 구간이 있어 편한 신발 권장</small></div></li>
+     <li><div class="step-time">15:00–16:00</div><div class="step-content"><b>5. 추암 촛대바위</b><p>추암해변 → 촛대바위 전망 구간 → 출렁다리</p><small>묵호권역에서 차량 이동시간 별도 고려 · 일몰/일출 시간 확인</small></div></li>
+    </ol><div class="route-note"><b>이동 팁</b> 묵호권역은 도째비골·해랑전망대·논골담길을 묶어 도보로 둘러보고, 추암은 별도 이동 구간으로 계획하세요.</div>
+   </article>
+   <article class="route route-detailed">
+    <h3>🏖️ 해변·캠핑 1박 2일 코스</h3><div class="route-summary"><span>추천 소요시간</span><b>1박 2일</b><span>추천 대상</span><b>가족·캠핑·해돋이 여행객</b></div>
+    <ol class="route-steps">
+     <li><div class="step-time">1일차 오전</div><div class="step-content"><b>1. 망상해수욕장</b><p>백사장 산책 → 바다 전망 촬영 → 주변에서 점심</p><small>해수욕장 입수는 지정 개장기간·안전관리 시간에만 가능</small></div></li>
+     <li><div class="step-time">1일차 오후</div><div class="step-content"><b>2. 망상오토캠핑리조트 또는 숙소</b><p>체크인 → 해변 휴식 → 저녁 식사</p><small>주말·성수기 예약, 입실시간, 주차·취사 규정 사전 확인</small></div></li>
+     <li><div class="step-time">2일차 이른 아침</div><div class="step-content"><b>3. 추암 촛대바위 일출</b><p>일출 전 도착 → 전망 구간 산책 → 추암해변</p><small>계절별 일출 시각 확인 · 해안 안전선 및 통제 안내 준수</small></div></li>
+     <li><div class="step-time">2일차 오전</div><div class="step-content"><b>4. 추암오토캠핑장 주변 산책</b><p>캠핑장 해안 풍경 감상 → 체크아웃 및 귀가</p><small>예약 일정에 따라 퇴실시간 준수 · 사이트 내 차량 이동 주의</small></div></li>
+    </ol><div class="route-note"><b>준비물</b> 바람막이, 걷기 편한 신발, 개인 세면도구, 캠핑장 예약정보. 캠핑장 이용료·시설 운영은 예약일 기준으로 확인하세요.</div>
+   </article>
+  </div>
+  <div class="notice">안내: 관광지 운영시간·휴무일·요금·체험시설 운영 여부는 계절 및 현장 사정에 따라 달라질 수 있습니다. 출발 전 공식 홈페이지에서 최신 정보를 확인해 주세요.</div>
+ </div>
+</section>
+</main>
+<footer>
+ <div class="wrap">
+  <div class="footer-top">
+    <div>
+      <div class="footer-title">📍 동해종합버스터미널 관광안내</div>
+      <div class="footer-small">강원특별자치도 동해시 부곡복개로 132<br>동해 여행이 즐겁고 편안하시길 바랍니다.</div>
+    </div>
+    <div class="footer-links-group">
+      <div class="footer-links-title">🚌 대중교통 및 터미널 조회</div>
+      <div class="footer-links">
+        <a href="https://www.bustago.or.kr" target="_blank" rel="noopener noreferrer">시외버스 예매 (버스타고)</a>
+        <a href="https://txbus.t-money.co.kr" target="_blank" rel="noopener noreferrer">시외버스 예매 (티머니)</a>
+        <a href="https://www.kobus.co.kr" target="_blank" rel="noopener noreferrer">고속버스 예매 (KOBUS)</a>
+        <a href="https://www.donghae-pti.kr" target="_blank" rel="noopener noreferrer">동해시 시내버스 노선·시간표</a>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">본 페이지는 관광정보 안내를 위한 참고용 페이지입니다. 운행정보는 방문 전 공식 시스템을 확인해 주세요.</div>
+ </div>
+</footer>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+ <div class="modal-inner"><button class="close" id="closeModal" aria-label="닫기">×</button><div class="modal-box" id="modalBox"></div></div>
+</div>
+<script>
+const spots=[
+ {id:"mureung",name:"무릉계곡",english:"Mureung Valley",tag:"신선이 놀다 간 국민명승지 1호",emoji:"🌿",image:"https://contents-cdn.viewus.co.kr/image/2025/04/CP-2023-0442/image-31e09288-5906-401e-b2b9-53dfe73e8303.jpeg",alt:"무릉계곡 두타산 베틀바위의 기암절벽과 소나무",desc:"두타산과 청옥산을 배경으로 수백 명이 앉을 수 있는 넓은 무릉반석과 웅장한 용추폭포, 쌍폭포가 이어지는 무릉계곡은 '신선이 놀다 간 자리'라 불리는 동해 최고의 자연 휴양지입니다. 베틀바위 산성길 산책로도 함께 많은 관광객의 사랑을 받고 있습니다.",address:"강원특별자치도 동해시 삼화로 538",hours:"매일 06:00~20:00 (하절기 기준). 계절·기상 및 현장 통제에 따라 달라질 수 있으므로 방문 전 확인하세요.",fee:"어른 4,000원 / 청소년 및 군인 1,500원 / 어린이 700원 / 강원특별자치도민 50% 감면/ 주차료(소형 2,000원 대형 5,000원).",time:"1~3시간 이상(무릉반석·삼화사 산책 또는 용추폭포 코스 선택에 따라 달라집니다.)",course:"무릉반석 → 삼화사 → 계곡 산책로 → 체력과 시간에 맞춰 쌍폭포·용추폭포 방향. 등산을 원한다면 베틀바위 산성길 코스의 거리와 난이도를 미리 확인하세요.",transport:"동해종합버스터미널에서 시내버스 또는 택시로 이동할 수 있습니다. 버스 노선과 배차 간격은 출발 전 확인하세요.",contact:"무릉계곡 매표소 033-539-3700",tip:"무릉반석 위에 새겨진 조선시대 문인들의 친필 암각서와 쌍폭포 코스를 꼭 탐방해 보세요! 미끄럼 방지 신발과 물을 준비하고, 비가 많이 온 뒤에는 계곡·등산로 통제 여부를 확인하세요."},
+ {id:"dojjaebi",name:"도째비골 스카이밸리",tag:"전망·체험",emoji:"🌊",image:"https://file2.nocutnews.co.kr/newsroom/image/2026/03/19/202603191730155816_0.jpg",alt:"도째비골 스카이밸리 해안 전망시설과 동해 바다",desc:"묵호 해안 절벽 위에서 동해 바다를 조망하고 스카이워크와 체험시설을 즐기는 관광 명소입니다. 가까운 해랑전망대·논골담길·묵호등대와 묶어 방문하기 좋습니다.",address:"강원특별자치도 동해시 묵호진동 2-109 일원",hours:"하절기(4~10월) 10:00~18:00, 동절기(11~3월) 10:00~17:00",fee:"입장료 : 성인 3,000원, 청소년·어린이 2,000원 ",time:"1~1.5시간",course:"도째비골 스카이밸리 → 해랑전망대 → 논골담길 → 묵호등대",transport:"묵호역·묵호항 권역에서 택시 또는 시내버스로 이동. 주변 관광지는 도보 연계 가능하나 계단·경사 구간 있음",contact:"도째비골 스카이밸리 매표소 070-7799-6955",tip:"스카이사이클·슬라이드 등 체험시설은 별도 요금 적용."},
+ {id:"chuam",name:"추암 촛대바위",tag:"일출·해안경관",emoji:"🌅",image:"https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=b291789f-e1cf-42e8-add1-5873ed1707be",alt:"추암 촛대바위와 동해 바다의 해안 절경",desc:"촛대처럼 솟은 기암괴석과 일출 풍경으로 유명합니다. 추암해변, 출렁다리, 해암정과 조각공원을 함께 산책할 수 있습니다.",address:"강원특별자치도 동해시 촛대바위길 17-1",hours:"해변·촛대바위 산책은 야외 개방 공간이며, 안전 통제·기상 상황에 따라 접근 제한 가능",fee:"해변·촛대바위 관람 무료(주차 등 부대시설은 현장 안내 확인)",time:"45분~1.5시간",course:"추암해변 → 촛대바위 전망 구간 → 추암 출렁다리 → 해암정·조각공원",transport:"추암역에서 도보 이동 가능한 권역. 시내버스 이용 시 운행 시간 확인",contact:"추암관광안내소 033-530-2801",tip:"일출을 보려면 계절별 일출 시간을 확인하고 일찍 도착하세요. 파도가 높거나 바람이 강할 때는 해안 가장자리와 출렁다리 통제에 따르세요."},
+ {id:"cheongok",name:"천곡황금박쥐동굴",tag:"동굴·지질",emoji:"🦇",image:"https://datacdn.ibtravel.co.kr/files/2024/07/18132459/011b513477c42f1371d9465e9b1af396_img-1.jpeg",alt:"천곡황금박쥐동굴 내부의 석회암 지형",desc:"도심 가까이에 자리한 천연 석회암 동굴로, 오랜 시간 형성된 동굴 지형과 종유석·석순 등 지질 경관을 관찰할 수 있습니다.",address:"강원특별자치도 동해시 동굴로 50",hours:"08:30~18:00",fee:"입장료 : 성인 5,000원, 청소년 및 일반사병 3,000원, 어린이 2,000원",time:"약 40~60분",course:"매표소 → 동굴 내부 관람로 → 전시·주변 안내시설",transport:"동해종합버스터미널에서 택시 또는 시내버스로 이동. 도심권 일정과 연계하기 좋음",contact:"천곡황금박쥐동굴 033-539-3630",tip:"동굴 내부는 서늘하고 바닥이 미끄러울 수 있어 운동화를 권장합니다. 계단·좁은 통로가 있어 편한 복장으로 방문하세요."},
+ {id:"byeolyu",name:"무릉별유천지",tag:"액티비티·풍경",emoji:"💜",image:"https://image.xn--ok0b236bp0a.com/content_travel/2728309677_GWjSgxNf_cc0b633636e42d72b0be6c2c4a98e6f88d3f0919.jpg",alt:"무릉별유천지의 에메랄드빛 호수와 주변 산세",desc:"폐광 부지를 활용한 관광지로 에메랄드빛 호수와 라벤더 정원, 스카이글라이더·루지·집라인 등 체험시설을 즐길 수 있습니다.",address:"강원특별자치도 동해시 이기로 97 일원(무릉권역)",hours:"매주 월요일 휴관(공휴일이 월요일이면 다음날 휴관 안내). 09:30~17:30",fee:"입장료: 성수기(6~9월) 성인 6,000원·청소년/어린이 3,000원·유아 2,000원 / 비수기 성인 4,000원·청소년/어린이 2,000원·유아 1,000원. 체험시설 별도 요금",time:"2~4시간(체험시설 이용 시 여유 있게 계획)",course:"입장·셔틀 확인 → 호수 전망 구간 → 라벤더 정원(개화기) → 원하는 체험시설",transport:"동해 시내에서 택시·자가용 이동이 편리합니다. 셔틀 운행 및 주차장 위치는 현장 안내 확인",contact:"동해시 무릉별유천지 공식 안내에서 운영 공지 확인",tip:"체험시설은 키·체중 등 이용 기준과 기상 제한이 있을 수 있습니다. 인기 시설은 조기 매진될 수 있어 오전 방문을 추천합니다."},
+ {id:"mangsang",name:"망상해수욕장·오토캠핑리조트",tag:"해변·휴양",emoji:"🏖️",image:"https://img.khan.co.kr/news/2022/05/18/l_2022051901002229200211061.jpg",alt:"푸른 바다와 넓은 해변",desc:"넓은 백사장과 얕은 수심으로 알려진 대표 해변입니다. 해변 산책과 일출, 리조트·한옥마을·캠핑 등 취향에 맞는 휴식을 즐길 수 있습니다.",address:"강원특별자치도 동해시 동해대로 6220 일원",hours:"해변 산책은 상시 가능하나 해수욕장 입수는 지정된 개장기간·안전관리 시간에 한함. 숙박시설은 예약 안내 확인",fee:"해변 이용 무료. 숙박·카라반·캠핑 이용료는 시설·날짜·인원별로 다르며 사전 예약 필요",time:"1~3시간 또는 1박 이상",course:"망상해변 산책 → 해변 주변 카페·식사 → 망상오토캠핑리조트 또는 한옥마을 숙박",transport:"망상역 및 시내버스 이용 가능 여부와 시간은 방문일 기준 확인. 짐이 있으면 택시 이용도 고려",contact:"망상오토캠핑리조트 033-539-3600",tip:"성수기·주말은 숙박 예약이 빨리 마감될 수 있습니다."},
+ {id:"camping",name:"추암오토캠핑장",tag:"캠핑·바다",emoji:"⛺",image:"https://gocamping.or.kr/upload/camp/2975/thumb/thumb_720_4714NEz8Zi6UmBtcpP1QKI7z.jpg",alt:"추암오토캠핑장의 바다 전망과 텐트",desc:"추암해변과 촛대바위 인근에서 바다 풍경과 캠핑을 함께 즐길 수 있는 캠핑장입니다. 해돋이 산책하기 좋습니다.",address:"강원특별자치도 동해시 촛대바위길 28 일원",hours:"예약별 입실·퇴실 시간 및 이용 규정 확인 필요",fee:"자동차 캠프장(평일 22,000원, 주말 27,000원, 성수기 45,000원) 일반캠프장(평일 15,000원, 주말 22,000원, 성수기 36,000원.",time:"1박 권장",course:"캠핑장 입실 → 추암해변·촛대바위 산책 → 다음 날 일출 감상",transport:"추암역 및 추암관광지 권역에서 접근 가능. 캠핑 장비가 많으면 차량 이동이 편리",contact:"추암오토캠핑장 033-539-3737",tip:"예약한 사이트 유형과 입·퇴실 시간을 확인하세요. 해안 산책 시 파도와 바람에 주의하고, 일출 관람은 기상 상황을 확인한 뒤 이동하세요."}
+];
+const grid=document.getElementById("spotGrid");
+grid.innerHTML=spots.map(s=>`<article class="spot"><button class="spot-image spot-image-button" type="button" data-spot="${s.id}" aria-label="${s.name} 상세정보 보기"><img loading="lazy" src="${s.image}" alt="${s.alt}" onerror="this.onerror=null;this.src='https://placehold.co/1000x600/dff6ff/176b91?text=동해+관광지'"><span class="tag">${s.tag}</span></button><div class="spot-body"><h3><button class="spot-title-button" type="button" data-spot="${s.id}" aria-label="${s.name} 상세정보 보기">${s.emoji} ${s.name}</button></h3><p>${s.desc}</p><div class="spot-meta"><b>위치</b> · ${s.address}</div><button type="button" data-spot="${s.id}">상세정보 보기 →</button></div></article>`).join("");
+const modal=document.getElementById("modal"),box=document.getElementById("modalBox");
+const infoDetails={
+ tourism:{emoji:"🏞️",title:"동해 대표 관광지 안내",body:"동해는 푸른 동해 바다와 계곡, 동굴, 체험 관광지를 함께 즐길 수 있는 여행지입니다.",sections:[["바다·해안 코스","도째비골 스카이밸리 → 묵호등대·논골담길 → 추암 촛대바위. 바다 풍경과 산책을 함께 즐기기 좋습니다."],["자연·체험 코스","무릉계곡 → 무릉별유천지 → 천곡황금박쥐동굴. 자연 경관과 체험·동굴 탐방을 묶어 하루 일정으로 계획해 보세요."],["요금·운영시간","관광지별 유료·무료 여부, 휴관일, 체험시설 운영시간이 다릅니다. 방문일에 맞춰 각 시설의 최신 공지를 확인하세요."],["추천 팁","야외 전망대와 해안은 날씨 영향을 받을 수 있으므로 바람·강수 예보를 확인하고, 인기 시설은 운영 종료 전 여유 있게 도착하세요."]]},
+ transport:{emoji:"🚌",title:"교통·이동 안내",body:"동해종합버스터미널을 출발점으로 시내버스·택시·도보를 조합해 여행할 수 있습니다. 관광지 간 배차 간격과 소요시간은 날짜·시간대에 따라 달라지므로 출발 직전 지도 앱이나 버스정보에서 확인하세요.",sections:[
+ ["터미널에서 출발하기","도착지 이름과 주소를 기사님께 보여주면 편리합니다. 버스 배차가 길거나 여러 관광지를 연속 방문할 때는 택시 이동도 비교해 보세요."],
+ ["추천 이동 방식","천곡동굴은 도심 일정과, 묵호권역(도째비골·논골담길·묵호등대)은 도보 산책과, 추암은 추암역·해변 관광과 묶기 좋습니다. 무릉계곡·무릉별유천지는 이동시간을 넉넉히 잡으세요."],
+ ["여행 팁","막차 시간과 주말·공휴일 운행 여부를 미리 확인하세요. 버스 시간표가 맞지 않을 때를 대비해 택시 호출 방법도 준비하면 좋습니다."]]},
+ food:{emoji:"🍜",title:"동해 먹거리 안내",body:"동해에서는 항구의 해산물과 전통시장 먹거리, 지역 음식점을 함께 즐겨보세요. 개별 메뉴와 가격은 가게·계절·시세에 따라 달라집니다.",sections:[
+ ["대표 먹거리","묵호항·어달항 주변의 회와 해산물, 동쪽바다중앙시장의 건어물·분식·시장 간식, 지역 식당의 장칼국수·감자전·메밀 음식 등을 살펴보세요."],
+ ["추천 먹거리 코스","묵호항 주변 식사 → 동쪽바다중앙시장 구경·간식 → 논골담길 산책. 자연·계곡 여행이라면 무릉계곡 인근 향토음식점에서 식사하는 코스도 좋습니다."],
+ ["가격·영업시간","음식점별 가격과 영업시간은 다르며 시장 점포도 휴무일이 다를 수 있습니다. 회·해산물은 주문 전 가격, 중량, 상차림 비용을 확인하세요."],
+ ["여행 팁","점심·저녁 피크 시간은 대기가 생길 수 있습니다. 특정 음식점보다 지역 먹거리 탐방을 원한다면 시장 운영시간과 방문 당일 영업 여부를 먼저 확인하세요."]]},
+ stay:{emoji:"🛏️",title:"숙박·캠핑 안내",body:"바다 가까이 머물고 싶다면 망상해변 일대 숙박·캠핑 시설을, 일출과 해안 산책을 즐기려면 추암오토캠핑장 권역을 고려해 보세요.",sections:[
+ ["숙박 선택","리조트·호텔은 편의시설과 객실형 숙박에, 한옥마을은 전통 분위기에, 오토캠핑장은 캠핑 장비와 야외 활동에 적합합니다."],
+ ["요금·예약","객실·사이트 요금은 숙박일, 인원, 시설 유형, 성수기 여부에 따라 달라집니다. 예약 사이트에서 날짜별 총액과 취소 규정을 확인한 뒤 예약하세요."],
+ ["예약 전 확인","입·퇴실 시간, 기준·최대 인원, 주차 대수, 침구 제공, 취사 가능 여부, 전기·샤워시설, 반려동물 규정을 확인하세요."],
+ ["추천 코스","망상 숙박: 해변 산책과 휴식 중심 / 추암 캠핑: 저녁 해안 산책 후 다음 날 촛대바위 일출 감상"]]},
+ festival:{emoji:"🎉",title:"축제·행사 안내",body:"동해의 축제와 행사는 계절·연도별로 일정이 달라집니다. 특정 날짜의 행사 개최 여부는 시 공식 행사 공지에서 확인하고 방문 계획을 세우세요.",sections:[
+ ["해맞이 행사","새해 첫날 망상해변·추암해변 등에서 일출을 즐기는 방문객이 많습니다. 행사 운영 여부와 교통 통제·주차 안내는 연말 공지를 확인하세요."],
+ ["전통·지역 행사","정월대보름 행사, 지역 문화행사와 전통시장 행사 등이 열릴 수 있습니다. 개최일·장소·프로그램은 해마다 달라질 수 있습니다."],
+ ["계절 이벤트","무릉별유천지의 꽃·정원 관련 이벤트 등 계절 행사는 개화 시기와 운영 여건에 따라 달라집니다. 예매·체험 접수 마감도 사전에 확인하세요."],
+ ["방문 전 체크","행사 일정, 우천 시 변경 여부, 주차장, 셔틀 운행, 혼잡 시간대를 확인하세요. 행사 당일에는 현장 안내와 교통 통제에 따라 이동하세요."]]}
+};
+function openInfo(key){const d=infoDetails[key];if(!d)return;box.innerHTML=`<div class="modal-content"><div style="font-size:2.5rem" aria-hidden="true">${d.emoji}</div><h2 id="modalTitle">${d.title}</h2><p>${d.body}</p><div class="modal-details">${d.sections.map(([h,t])=>`<div class="detail"><b>${h}</b>${t}</div>`).join("")}</div><p class="notice">※ 요금·운영시간·행사 일정은 변경될 수 있습니다. 방문 전 해당 시설의 최신 공지와 예약 안내를 확인하세요.</p></div>`;modal.classList.add("open");document.body.style.overflow="hidden";document.getElementById("closeModal").focus()}
+document.querySelectorAll("[data-info]").forEach(card=>{card.addEventListener("click",()=>openInfo(card.dataset.info));card.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openInfo(card.dataset.info)}})});
+function openSpot(id){const s=spots.find(x=>x.id===id);if(!s)return;box.innerHTML=`<img class="modal-img" src="${s.image}" alt="${s.alt}"><div class="modal-content"><h2 id="modalTitle">${s.name}${s.english ? ` (${s.english})` : ""}</h2><p class="subtitle">${s.tag}</p><p>${s.desc}</p><div class="modal-details"><div class="detail"><b>📍 주소</b>${s.address}</div><div class="detail"><b>🕒 운영시간</b>${s.hours}</div><div class="detail"><b>🎟️ 이용요금</b>${s.fee}</div><div class="detail"><b>⏱️ 추천 체류시간</b>${s.time}</div><div class="detail"><b>🗺️ 추천 관람코스</b>${s.course}</div><div class="detail"><b>🚌 교통·이동</b>${s.transport}</div><div class="detail"><b>☎️ 문의</b>${s.contact}</div><div class="detail"><b>💡 여행 팁</b>${s.tip}</div></div><p class="notice">※ 요금·운영시간은 계절 및 현장 상황에 따라 달라질 수 있습니다.</p></div>`;modal.classList.add("open");document.body.style.overflow="hidden";document.getElementById("closeModal").focus()}
+document.querySelectorAll("[data-spot]").forEach(btn=>{btn.addEventListener("click",()=>openSpot(btn.dataset.spot));btn.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openSpot(btn.dataset.spot)}})});
+const menuBtn=document.getElementById("menuBtn"),navlinks=document.getElementById("navlinks");
+menuBtn.addEventListener("click",()=>{const open=navlinks.classList.toggle("open");menuBtn.setAttribute("aria-expanded",open)});
+document.querySelectorAll(".navlinks a").forEach(a=>{a.addEventListener("click",()=>navlinks.classList.remove("open"))});
+modal.addEventListener("click",e=>{if(e.target===modal){modal.classList.remove("open");document.body.style.overflow=""}});
+document.getElementById("closeModal").addEventListener("click",()=>{modal.classList.remove("open");document.body.style.overflow=""});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&modal.classList.contains("open")){modal.classList.remove("open");document.body.style.overflow=""}});
+</script>
+</body>
+</html>
